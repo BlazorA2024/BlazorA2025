@@ -1,0 +1,42 @@
+﻿@* <div class="position-absolute top-0 start-0 mt-n3">
+    <svg class="fill-body" fill="#fff" width="1920" height="146" viewBox="0 0 1920 146" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1457.5 123.815C1692.5 141 1811.59 85.4373 1920 50.5V3L0 0.5V23.4269V141C56.3835 103.114 283.285 126.587 439.5 141C607.5 156.5 776.5 126.673 873.5 108.5C1087 68.5 1255.23 109.024 1457.5 123.815Z"></path>
+    </svg>
+</div>  *@
+
+@if (Params != null)
+{
+            <div class="position-absolute top-0 start-0 mt-n3">
+
+        @* عرض صورة يدالربوت *@
+        @if (Params.Icon != null)
+        {
+            <img src="@Params.Icon.Src" class="@Params.Icon.ClassImg"  />
+        }
+
+        </div>
+    
+
+}
+else
+{
+    <p>No data available</p>
+}
+
+@code {
+    [Parameter] public CardTextAndIcon? Params { get; set; }
+
+
+
+    // إذا كنت بحاجة إلى منطق إضافي، يمكنك إضافته هنا
+    protected override void OnInitialized()
+    {
+
+        if (Params != null && Params.IsUseStyleIneerItems)
+        {
+            Params.ClassItems += " " + CardTextAndIcon.INEERCLASS;
+        }
+
+
+    }
+}

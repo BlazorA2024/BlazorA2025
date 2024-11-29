@@ -1,0 +1,74 @@
+﻿@* @{
+    var features = new[]
+    {
+        new { Title = "Future-proof solutions", Description = "Our AI solutions are designed with scalability in mind, allowing your business to grow and adapt without the need.", IconClass = "bg-warning", TextColor = "text-warning", IconPath = "M41.5812 5.73541C42.4755 5.6878 43.2267 6.4001 43.2268 7.29567C43.2269 13.8143 42.6409 18.8998 41.541 22.788C40.441 26.6766 38.7961 29.4729 36.6033 31.2632C32.5146 34.6013 27.199 33.9631 21.9796 32.0571C23.4158 28.3359 25.8081 25.0887 29.3104 23.7778C30.1186 23.4753 30.5285 22.575 30.226 21.7668C29.9235 20.9586 29.0232 20.5486 28.215 20.8511C23.8177 22.4969 21.0169 26.2907 19.3648 30.1898C17.4616 27.1276 16.4531 24.1562 16.4066 21.3509C16.3559 18.2854 17.4583 15.553 19.5442 13.2865C23.6288 8.8482 31.3809 6.27845 41.5812 5.73541Z" },
+        new { Title = "Data security and compliance", Description = "We ensure full compliance with industry standards, safeguarding your data at all times.", IconClass = "bg-primary", TextColor = "text-primary", IconPath = "M10.4979 31.473C10.1631 31.7097 9.86596 31.9497 9.63182 32.1838C7.74117 34.0744 7.08688 36.5528 6.87055 38.4055C6.76034 39.3494 6.75755 40.1826 6.78209 40.7813C6.7944 41.0822 7.01417 42.7876 7.03109 42.9622C7.20559 42.979 8.91109 43.1988 9.2118 43.2111C9.81073 43.2357 10.6437 43.233 11.5877 43.1226C13.4403 42.9063 15.9188 42.2519 17.8094 40.3613C18.0436 40.1272 18.2835 39.8301 18.5203 39.4953C18.6762 39.2749 18.7542 39.1647 18.9789 38.6159C19.4868 37.3761 19.2859 35.0169 18.5758 33.8809C18.2614 33.3782 17.987 33.1036 17.4383 32.5549C16.8895 32.0061 16.6151 31.7317 16.1123 31.4174C14.9762 30.7074 12.6172 30.5065 11.3774 31.0142C10.8286 31.239 10.7184 31.3169 10.4979 31.473Z" },
+        new { Title = "Effortless integration and support", Description = "We prioritize seamless integration of our AI solutions into your existing systems and workflows.", IconClass = "bg-pink", TextColor = "text-pink", IconPath = "M37.1449 4.97022C36.5386 4.66956 35.9396 4.73612 35.5349 4.84152C35.1317 4.94645 34.7405 5.13597 34.3922 5.32947C33.7113 5.70762 32.8413 6.3055 31.809 7.01491L9.1608 22.5792C8.49876 23.034 7.89301 23.4503 7.46149 23.8259C7.0684 24.1682 6.38992 24.8263 6.37528 25.8257C6.3692 26.2417 6.46286 26.6532 6.64847 27.0255C7.0943 27.9201 7.99082 28.2195 8.49332 28.3578C9.04499 28.5097 9.77115 28.6226 10.5648 28.7461L18.0475 29.9103L13.063 38.7134C12.4699 39.7607 11.9669 40.649 11.6597 41.3403C11.5021 41.6953 11.351 42.0944 11.2841 42.5011C11.2163 42.9132 11.2083 43.5007 11.5471 44.0667C11.7835 44.4617 12.1204 44.7869 12.5235 45.0094C13.1011 45.3282 13.6879 45.2997 14.0973 45.2174C14.5013 45.1361 14.8951 44.9713 15.2442 44.8013C15.9244 44.4701 16.7944 43.9361 17.8203 43.3067L40.7311 29.2505C41.3947 28.8434 42.0057 28.4686 42.4465 28.1226C42.8538 27.8028 43.5459 27.1922 43.6203 26.213C43.6515 25.8022 43.5849 25.3899 43.4257 25.0099C43.0465 24.1042 42.1972 23.7428 41.7097 23.5678C41.1824 23.3782 40.4842 23.2153 39.7263 23.0382L31.6572 21.1522L36.7682 11.4183C37.3505 10.3093 37.8413 9.37477 38.1363 8.65395C38.2872 8.28508 38.429 7.87418 38.4855 7.46158C38.5424 7.04718 38.5376 6.44439 38.1674 5.87808C37.9134 5.48979 37.5605 5.17637 37.1449 4.97022Z" }
+    };
+}
+
+<div class="row g-4 g-lg-5" style="padding:5%">
+    @foreach (var feature in features)
+    {
+        <div class="col-md-4 mb-4 mb-sm-0">
+            <div class="card card-body bg-transparent text-center p-0 wster">
+                <!-- Icon -->
+                <div class="icon-xl @feature.IconClass bg-opacity-25 rounded-2 m-auto d-flex justify-content-center align-items-center mb-4">
+                    <svg class="@feature.TextColor" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="@feature.IconPath" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <!-- Title and content -->
+                <h6 class="mb-3 tser">@feature.Title</h6>
+                <p class="mb-0">@feature.Description</p>
+            </div>
+        </div>
+    }
+</div>
+ *@
+<div class=" px-4 py-5 position-relative" id="hanging-icons">
+    <span class="position-absolute bottom-0 start-0">
+        <svg class="fill-body" width="1920" height="254" viewBox="0 0 1920 254" fill="rgb(31, 36, 52)" xmlns="http://www.w3.org/2000/svg">
+            <path d="M556.048 176.63C371.384 97.9289 108.406 143.838 0 176.63V254H1920V0C1863.62 35.5602 1712.53 98.8233 1559.27 67.394C1406.01 35.9648 1206.33 86.6647 1125.65 115.943C1012.72 168.964 740.712 255.331 556.048 176.63Z"></path>
+        </svg>
+    </span>
+    <h2 class="pb-2 border-bottom">Hanging icons</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+            </div>
+            <div>
+                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                    Primary button
+                </a>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+            </div>
+            <div>
+                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                    Primary button
+                </a>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+            </div>
+            <div>
+                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                    Primary button
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

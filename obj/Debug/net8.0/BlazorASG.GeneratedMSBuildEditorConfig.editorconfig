@@ -1,0 +1,199 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorASG
+build_property.RootNamespace = BlazorASG
+build_property.ProjectDir = C:\Users\Elite\source\repos\BlazorASG\BlazorASG\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Elite\source\repos\BlazorASG\BlazorASG
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Card/TemlatIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkXFRlbWxhdEljb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Card/TemlatIconCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkXFRlbWxhdEljb25DYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Card/TemlatIconIsItms.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkXFRlbWxhdEljb25Jc0l0bXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Card/Timalcard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkXFRpbWFsY2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Icon/Fdnull.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uXEZkbnVsbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Icon/IconManin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uXEljb25NYW5pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Icon/Mainicon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uXE1haW5pY29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/AnmCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxBbm1DYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/AsgCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxBc2dDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/BoosCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxCb29zQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/CardAsgr.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxDYXJkQXNnci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/CardStart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxDYXJkU3RhcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/Comcart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxDb21jYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/FeatureCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxGZWF0dXJlQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxGb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/IamgCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxJYW1nQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/NumberCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxOdW1iZXJDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/PricingCardpi.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxQcmljaW5nQ2FyZHBpLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/PricingidCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxQcmljaW5naWRDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/Index/PricingSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleFxQcmljaW5nU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/New/CardStartServicis.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOZXdcQ2FyZFN0YXJ0U2VydmljaXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/New/IconCardpositionSevicis.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOZXdcSWNvbkNhcmRwb3NpdGlvblNldmljaXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/New/TiconmCaert.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOZXdcVGljb25tQ2FlcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/pricing/PricingCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xwcmljaW5nXFByaWNpbmdDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/pricing/PricingPlanAlias.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xwcmljaW5nXFByaWNpbmdQbGFuQWxpYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/pricing/PricingPlanServicis.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xwcmljaW5nXFByaWNpbmdQbGFuU2VydmljaXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/pricing/TitmsPricingPlanServices.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xwcmljaW5nXFRpdG1zUHJpY2luZ1BsYW5TZXJ2aWNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/ServicisCard/IconCardSevicis.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXJ2aWNpc0NhcmRcSWNvbkNhcmRTZXZpY2lzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/ServicisCard/IconrebotCardSevicis.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXJ2aWNpc0NhcmRcSWNvbnJlYm90Q2FyZFNldmljaXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/ServicisCard/ItemrebotIcons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXJ2aWNpc0NhcmRcSXRlbXJlYm90SWNvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/ServicisCard/ItemsIcons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXJ2aWNpc0NhcmRcSXRlbXNJY29ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/ServicisCard/Relative.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXJ2aWNpc0NhcmRcUmVsYXRpdmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/ServicisCard/SectionSercicis.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXJ2aWNpc0NhcmRcU2VjdGlvblNlcmNpY2lzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/TItem/IconCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUSXRlbVxJY29uQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/TItem/Texstposition.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUSXRlbVxUZXhzdHBvc2l0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Components/TItem/TextAndIconCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUSXRlbVxUZXh0QW5kSWNvbkNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-a3grviv4k4
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3letamfw7o
+
+[C:/Users/Elite/source/repos/BlazorASG/BlazorASG/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

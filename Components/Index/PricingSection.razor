@@ -1,0 +1,59 @@
+﻿@* PricingSection.razor *@
+
+<div style="padding:14%;background:linear-gradient(90deg, rgba(240, 150, 255, 0.15) 0%, rgba(191, 200, 252, 0.15) 51%, rgba(187, 148, 255, 0.15) 100%)">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+        <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <PricingCardpi Plan="@FreePlan" />
+        <PricingCardpi Plan="@ProPlan" />
+        <PricingCardpi Plan="@EnterprisePlan" />
+    </div>
+</div>
+
+
+
+@code {
+    private PricingPlan FreePlan = new PricingPlan()
+        {
+            Title = "Free",
+            Price = "$0",
+            PricePeriod = "/mo",
+            Users = "10 users included",
+            Storage = "2 GB of storage",
+            Support = "Email support",
+            Access = "Help center access",
+            ButtonText = "Sign up for free",
+            ButtonStyle = "outline-primary",
+            IsFeatured = false
+        };
+
+    private PricingPlan ProPlan = new PricingPlan()
+        {
+            Title = "Pro",
+            Price = "$15",
+            PricePeriod = "/mo",
+            Users = "20 users included",
+            Storage = "10 GB of storage",
+            Support = "Priority email support",
+            Access = "Help center access",
+            ButtonText = "Get started",
+            ButtonStyle = "primary",
+            IsFeatured = false
+        };
+
+    private PricingPlan EnterprisePlan = new PricingPlan()
+        {
+            Title = "Enterprise",
+            Price = "$29",
+            PricePeriod = "/mo",
+            Users = "30 users included",
+            Storage = "15 GB of storage",
+            Support = "Phone and email support",
+            Access = "Help center access",
+            ButtonText = "Contact us",
+            ButtonStyle = "primary",
+            IsFeatured = true
+        };
+}

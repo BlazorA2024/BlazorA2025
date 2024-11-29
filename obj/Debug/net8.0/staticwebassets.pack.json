@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorASG.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorASG.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\01.svg",
+      "PackagePath": "staticwebassets\\01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\08.svg",
+      "PackagePath": "staticwebassets\\08.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\66479c808ebc1fa50fc19064_Glow One.svg",
+      "PackagePath": "staticwebassets\\66479c808ebc1fa50fc19064_Glow One.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\66479c808ebc1fa50fc19065_Glow Two.svg",
+      "PackagePath": "staticwebassets\\66479c808ebc1fa50fc19065_Glow Two.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\66479c808ebc1fa50fc191bc_About Two Contact Bg.webp",
+      "PackagePath": "staticwebassets\\66479c808ebc1fa50fc191bc_About Two Contact Bg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\66479c808ebc1fa50fc191c2_About Two Hero Bg Image (1).webp",
+      "PackagePath": "staticwebassets\\66479c808ebc1fa50fc191c2_About Two Hero Bg Image (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\66479c808ebc1fa50fc19373_Service Image One.webp",
+      "PackagePath": "staticwebassets\\66479c808ebc1fa50fc19373_Service Image One.webp"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\6654a70b93b4842ee2af4989_16C151CD-26A2-4978-BAF0-4C6A2DD32F26.jpg",
+      "PackagePath": "staticwebassets\\6654a70b93b4842ee2af4989_16C151CD-26A2-4978-BAF0-4C6A2DD32F26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\6669b7aea996ef2296709361_microchip-ai-light.svg",
+      "PackagePath": "staticwebassets\\6669b7aea996ef2296709361_microchip-ai-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\666c15a441489db53384a11c_394 X 661 Px (1).jpg",
+      "PackagePath": "staticwebassets\\666c15a441489db53384a11c_394 X 661 Px (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\NewFolder\\site.js",
+      "PackagePath": "staticwebassets\\NewFolder\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\ai-hand.png",
+      "PackagePath": "staticwebassets\\ai-hand.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\ai-robot-2.png",
+      "PackagePath": "staticwebassets\\ai-robot-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\ai-robot.png",
+      "PackagePath": "staticwebassets\\ai-robot.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\03.svg",
+      "PackagePath": "staticwebassets\\assets\\03.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\04.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\05.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\08.svg",
+      "PackagePath": "staticwebassets\\assets\\08.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\09.svg",
+      "PackagePath": "staticwebassets\\assets\\09.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\10.svg",
+      "PackagePath": "staticwebassets\\assets\\10.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\12.svg",
+      "PackagePath": "staticwebassets\\assets\\12.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\04.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\05.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\06.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\06.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\07.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\07.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\09.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\09.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\Icon\\1I.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Icon\\1I.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\avatar\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\avatar\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\avatar\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\chatbot-cta.png",
+      "PackagePath": "staticwebassets\\assets\\images\\chatbot-cta.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\imagicon\\01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\imagicon\\01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\imagicon\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\imagicon\\02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\imagicon\\03.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\imagicon\\03.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\imagicon\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\imagicon\\04.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\imagicon\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\imagicon\\05.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\assets\\images\\logo-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\blur-decoration-2.svg",
+      "PackagePath": "staticwebassets\\blur-decoration-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\chat-boat.jpg",
+      "PackagePath": "staticwebassets\\chat-boat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\chat-heart.png",
+      "PackagePath": "staticwebassets\\chat-heart.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\chatbot-03.png",
+      "PackagePath": "staticwebassets\\chatbot-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\chatbot-cta.png",
+      "PackagePath": "staticwebassets\\chatbot-cta.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\ICON-removebg-preview.png",
+      "PackagePath": "staticwebassets\\css\\ICON-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\ICON.png",
+      "PackagePath": "staticwebassets\\css\\ICON.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\ICONk-removebg-preview.png",
+      "PackagePath": "staticwebassets\\css\\ICONk-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\ICONk.png",
+      "PackagePath": "staticwebassets\\css\\ICONk.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\VSCOM-Shape.svg",
+      "PackagePath": "staticwebassets\\css\\VSCOM-Shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\Visual-Studio-for-Mac-Shape-1.svg",
+      "PackagePath": "staticwebassets\\css\\Visual-Studio-for-Mac-Shape-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\Visual-Studio-for-Mac-Shape-2.svg",
+      "PackagePath": "staticwebassets\\css\\Visual-Studio-for-Mac-Shape-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\_dark-mode.scss",
+      "PackagePath": "staticwebassets\\css\\_dark-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\_navbar.scss",
+      "PackagePath": "staticwebassets\\css\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\_reboot.css",
+      "PackagePath": "staticwebassets\\css\\_reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\_utilities.scss",
+      "PackagePath": "staticwebassets\\css\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\favicon.png",
+      "PackagePath": "staticwebassets\\css\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\fb-icon.svg",
+      "PackagePath": "staticwebassets\\css\\fb-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\google-icon.svg",
+      "PackagePath": "staticwebassets\\css\\google-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\icon.jpg",
+      "PackagePath": "staticwebassets\\css\\icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\m1.png",
+      "PackagePath": "staticwebassets\\css\\m1.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\manipulator.js",
+      "PackagePath": "staticwebassets\\css\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\root-jo2ifv11.css",
+      "PackagePath": "staticwebassets\\css\\root-jo2ifv11.css"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\css\\تنزيل__2___1_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\css\\تنزيل__2___1_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Elite\\source\\repos\\BlazorASG\\BlazorASG\\wwwroot\\service-single.html",
+      "PackagePath": "staticwebassets\\service-single.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorASG.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorASG.props",
+      "PackagePath": "build\\BlazorASG.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorASG.props",
+      "PackagePath": "buildMultiTargeting\\BlazorASG.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorASG.props",
+      "PackagePath": "buildTransitive\\BlazorASG.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

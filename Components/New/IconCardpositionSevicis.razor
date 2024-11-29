@@ -1,0 +1,53 @@
+﻿<div class="position-relative" style="position:relative;background:#212529">
+    <div class="wkC position-relative" style="position:relative">
+
+        @if (cardIconItemsm != null)
+        {
+            <TiconmCaert Paramss="cardIconItemsm" />
+
+        }
+
+      
+    </div>
+</div>
+
+@code {
+    CardIconItemsm? cardIconItemsm;
+    List<string>? srcs1;
+    protected override void OnInitialized()
+    {
+        // /css/ICON-removebg-preview.png"
+        cardIconItemsm = new CardIconItemsm()
+            {
+               
+
+
+                CardIconServics = new List<CardIconServicsm>()
+           {
+            new CardIconServicsm(){Src="css/ICON-removebg-preview.png",
+            
+          
+            },
+            // new CardIconServicsm(){Src="assets/02.svg"},
+            // new CardIconServicsm(){Src="assets/02.svg"},
+            // new CardIconServicsm(){Src="assets/02.svg"},
+            // new CardIconServicsm(){Src="assets/02.svg"},
+            // new CardIconServicsm(){Src="assets/02.svg",
+            //         ClassImg="card-icon-img-1"},
+
+
+        }
+            };
+
+
+        
+
+
+        }
+            };
+
+
+
+
+
+    

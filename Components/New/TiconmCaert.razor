@@ -1,0 +1,61 @@
+﻿
+@if (Paramss != null)
+{
+			<div class="@Paramss.ClassItems" style="position:relative">
+
+
+				<div class="@Paramss.ClassContainer">
+					<h1 class="textHeader">   @Paramss.Name <span class="testimonial-heading-style"> AI </span></h1>
+				<p style="padding:5%;font-size: 17px;border-left: 1px solid #6e6161">
+					We provide models that help to aid in the creation of different attack sequences
+					. You can deal with AGS models choosing the model you want ?.
+				</p>
+
+					@if (Paramss.INameFoter)
+					{
+				<MudButton Href="/chatai"
+						   Rel="nofollow noopener"
+						   Variant="Variant.Outlined"
+						   EndIcon="@Icons.Custom.Brands.GitHub"
+						   Color="Color.Primary">
+							@Paramss.NameFoter
+				</MudButton>
+					}
+			</div>
+				
+	</div>
+	@if (Paramss.CardIconServics != null)
+	{
+
+		@foreach (var ob in Paramss.CardIconServics)
+		{
+
+
+			<CardStartServicis Paramss="@ob" />
+		}
+
+	}
+}
+
+		
+		
+
+@code {
+
+	[Parameter] public CardIconItemsm? Paramss { set; get; }
+
+
+
+	protected override void OnInitialized()
+	{
+
+		if (Paramss != null && Paramss.IsUseStyleIneerItems)
+		{
+			Paramss.ClassItems += " " + CardIconItemsm.INEERCLASS;
+		}
+
+
+	}
+
+
+}

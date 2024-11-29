@@ -1,0 +1,32 @@
+﻿    <!-- CardIcon قالب 2 يجلب العنصر التالية  من صفحة  -->
+<!-- Cloud hosting Team collaboration Fully adaptable Unify your data -->
+@if (Params != null)
+{
+    @* عرض الاسم إذا كان موجودًا *@
+        @if (!string.IsNullOrEmpty(Params.Name))
+        {
+            <li class="list-inline-item">
+                <i class="bi bi-cloud-fill text-pink me-2 lead"></i> @Params.Name
+            </li>
+        }
+
+       
+    
+}
+else
+{
+    <p>No data available</p>
+}
+
+@code {
+    [Parameter] public CaerdSevicisIcon? Params { get; set; }
+
+    // يمكن إضافة منطق إضافي عند تهيئة الكومبوننت
+    protected override void OnInitialized()
+    {
+        if (Params != null && Params.IsUseStyleIneerItems)
+        {
+            Params.ClassItems += " " + CaerdSevicisIcon.INEERCLASS;
+        }
+    }
+}

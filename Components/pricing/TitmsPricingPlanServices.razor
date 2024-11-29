@@ -1,0 +1,24 @@
+﻿<!-- PricingCard هنا  نستدعي    صفحة  -->
+@if (Params != null && Params.CardIconServicsModel != null)
+{
+       
+    <div class="row g-4">
+        @foreach (var card in Params.CardIconServicsModel)
+                {
+                    <PricingCard Params="@card" />
+                }
+            </div>
+        
+}
+
+@code {
+    [Parameter] public PricingPlanModel? Params { get; set; }
+
+    protected override void OnInitialized()
+    {
+        if (Params != null && Params.IsUseStyleIneerItems)
+        {
+            Params.ClassItems += " " + PricingPlanModel.INEERCLASS;
+        }
+    }
+}

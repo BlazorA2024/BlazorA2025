@@ -1,0 +1,126 @@
+﻿@* 
+<TItemPricingPlan  Params="@Params" />
+
+
+@code{
+    [Parameter] public PricingPlanCard? Params { set; get; } = new PricingPlanCard();
+
+    
+
+
+}  *@
+                <!-- قالب صور ونص المتحرك -->
+
+<script>
+
+</script>
+<style>
+    .swiper-container {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .avatar-img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+</style>
+ <div class=" px-4 py-5 position-relative" id="hanging-icons">
+    <span class="position-absolute bottom-0 start-0">
+        <svg class="fill-body" width="1920" height="254" viewBox="0 0 1920 254" fill="rgb(31, 36, 52)" xmlns="http://www.w3.org/2000/svg">
+            <path d="M556.048 176.63C371.384 97.9289 108.406 143.838 0 176.63V254H1920V0C1863.62 35.5602 1712.53 98.8233 1559.27 67.394C1406.01 35.9648 1206.33 86.6647 1125.65 115.943C1012.72 168.964 740.712 255.331 556.048 176.63Z"></path>
+        </svg>
+    </span>
+    @using System.Collections.Generic
+
+    <div class="row">
+        <div class="col-lg-9 col-xl-7 mx-auto">
+            <div class="swiper-container mt-6">
+                <!-- Wrapper for Swiper slides -->
+                <div class="swiper-wrapper">
+                    @foreach (var testimonial in Testimonials)
+                    {
+                        <div class="swiper-slide text-center">
+                            <div class="avatar avatar-lg flex-shrink-0 mb-3">
+                                <img class="avatar-img rounded-circle" src="@testimonial.ImageUrl" alt="avatar">
+                            </div>
+                            <blockquote class="mb-4">
+                                <p class="fs-6 heading-color mb-0">@testimonial.Message</p>
+                            </blockquote>
+                            <h6 class="mb-0">@testimonial.Name</h6>
+                            <span>@testimonial.Role</span>
+                        </div>
+                    }
+                </div>
+
+                <!-- Swiper navigation -->
+                @* <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+ *@
+                <!-- Swiper pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</div>
+@code {
+    public List<Testimonial> Testimonials = new List<Testimonial>
+    {
+        new Testimonial { Name = "Louis Ferguson", Role = "Web Developer", Message = "Our passion for customer excellence is just one reason why we are the market leader. We've always worked very hard to give our customers the best experience. Was out laughter raptures returned outweigh. Luckily cheered colonel I do we attack highest enabled...", ImageUrl = "assets/images/avatar/02.jpg" },
+        new Testimonial { Name = "Emma Watson", Role = "UI/UX Designer", Message = "Our passion for customer excellence is just one reason why we are the market leader. We've always worked very hard to give our customers the best experience. Was out laughter raptures returned outweigh. Luckily cheered colonel I do we attack highest enabled...", ImageUrl = "assets/images/avatar/04.jpg" },
+        new Testimonial { Name = "Jacqueline Miller", Role = "Product Designer", Message = "Our passion for customer excellence is just one reason why we are the market leader. We've always worked very hard to give our customers the best experience. Was out laughter raptures returned outweigh. Luckily cheered colonel I do we attack highest enabled....", ImageUrl = "assets/images/avatar/09.jpg" }
+    };
+
+    // public class Testimonial
+    // {
+    //     public string Name { get; set; }
+    //     public string Role { get; set; }
+    //     public string Message { get; set; }
+    //     public string ImageUrl { get; set; }
+    // }
+}
+@inject IJSRuntime JSRuntime
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("eval", @"
+                const swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    effect: 'slide',
+                });
+            ");
+        }
+    }
+}

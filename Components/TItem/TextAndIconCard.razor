@@ -1,0 +1,80 @@
+﻿@* @if (Params != null)
+{
+
+     <div class="Params.ClassItems">
+       <!-- Icon -->
+    <div class="hover-item d-flex align-items-center border-bottom position-relative py-4">
+        <IconCard Params="Params.Icon" />
+         <img src="@Params?.Icon?.Src" class="@Params?.Icon?.ClassIcon" alt="Service Icon" />
+ 
+        @if (Params.IsName)
+        {
+            <h6 class="mb-0">@Params.Name</h6>
+        }
+        <a href="service-single.html" class="icon-link icon-link-hover text-body stretched-link ms-auto"><i class="bi bi-arrow-right fs-5"></i> </a>
+    </div>
+}
+@code{
+    [Parameter] public CardTextAndIcon? Params { set; get; }
+    protected override void OnInitialized()
+    {
+
+        if (Params != null && Params.IsUseStyleIneerItems)
+        {
+            Params.ClassItems += " " + CardIconItems.INEERCLASS;
+        }
+
+
+    }
+} *@
+
+
+
+@if (Params != null)
+{
+    <div class="hover-item d-flex align-items-center border-bottom position-relative py-4">
+        @* عرض صورة الأيقونة *@
+        @if (Params.Icon != null)
+        {
+            <img src="@Params.Icon.Src" class="@Params.Icon.ClassIcon" alt="Service Icon" />
+        }
+
+        @* عرض الاسم إذا كان موجودًا *@
+        @if (Params.IsName)
+        {
+            <h6 class="mb-0" style="margin-left: 2%;">@Params.Name</h6>
+        }
+
+        @* عرض باقي التفاصيل هنا *@
+        @if (!string.IsNullOrEmpty(Params.ClassItems))
+        {
+            <p class="class-items">@Params.ClassItems</p>
+        }
+
+        @* رابط للخدمة *@
+        <a href="service-single.html" class="icon-link icon-link-hover text-body stretched-link ms-auto"><i class="bi bi-arrow-right fs-5"></i> </a>
+
+    </div>
+}
+else
+{
+    <p>No data available</p>
+}
+
+@code {
+    [Parameter] public CardTextAndIcon? Params { get; set; }
+
+    // إذا كنت بحاجة إلى منطق إضافي، يمكنك إضافته هنا
+    protected override void OnInitialized()
+    {
+        // إعطاء قيمة افتراضية لـ Params إذا كانت null
+        Params ??= new CardTextAndIcon
+        {
+            Icon = new CardIcon
+            {
+                Src = "https://example.com/icon.png",  // أضف رابط الأيقونة هنا
+                ClassIcon = ""  // الفئة الخاصة بالأيقونة (يمكنك تغييرها حسب الحاجة)
+            }
+        };
+    }
+}

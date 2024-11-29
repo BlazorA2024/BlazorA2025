@@ -1,0 +1,45 @@
+﻿ 
+  <style>
+      .vb{
+        width: 100%;
+        height: 100%;
+        border-radius: 28px 196px
+      }
+  </style>
+@if (@Paramss.Src != null)
+{
+
+
+
+    <div class="@Paramss.ClassContanier" style="padding: 2% 7%;">
+
+        <img src="@Paramss.Src" class="@Paramss.ClassImg" style="width:100%;height:100%;border-radius: 28px 196px " />
+
+</div>
+       
+         <span class="position-absolute bottom-0 start-0">
+            <svg class="fill-body" width="1920" height="254" viewBox="0 0 1920 254" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                <path d="M556.048 176.63C371.384 97.9289 108.406 143.838 0 176.63V254H1920V0C1863.62 35.5602 1712.53 98.8233 1559.27 67.394C1406.01 35.9648 1206.33 86.6647 1125.65 115.943C1012.72 168.964 740.712 255.331 556.048 176.63Z"></path>
+            </svg>
+        </span> 
+   
+}
+@*
+@code {
+    [Parameter] public CardIconts Paramss { set; get; } = new CardIconts();
+
+}  
+@* 
+@if (@Paramss.Src != null)
+{
+    <li class="@Paramss.ClassContanier">
+        <a href="#" class="@Paramss.ClassIcon" style="--bs-bg-opacity:0.05">
+            <img src="@Paramss.Src" class="@Paramss.ClassImg" alt="icon">
+        </a>
+    </li>
+}
+ *@
+@code {
+    [Parameter] public CardIconm Paramss { set; get; } = new CardIconm();
+
+}

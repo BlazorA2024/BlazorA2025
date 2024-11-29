@@ -1,0 +1,105 @@
+﻿		<!-- قالب 2 يتم ستدعاء العنصر التالية  -->
+<!-- Cloud hosting Team collaboration Fully adaptable Unify your data -->
+                  <!-- TemlatIconCard من صفحة   -->
+<!--  -->
+
+@if (Params != null)
+{
+	<div class="Params.ClassItems">
+	<div class="bg-dark position-relative overflow-hidden pb-6 pt-8 py-sm-9">
+		<!-- Grad blur -->
+		
+		@* عرض صورة الأيقونة *@
+        @if (Params.Icon != null)
+        {
+			<div class="position-absolute end-0 top-0">
+				<img src="@Params.Icon.Src" class="opacity-1 blur-8 h-300px rotate-335" alt="Grad shape">
+			</div>
+        }
+		<div class="container position-relative pb-7" data-bs-theme="dark">
+		<div class="inner-container">
+			<!-- Main title -->
+        @* عرض الاسم إذا كان موجودًا *@
+        @if (Params.IsName)
+        {
+					<h1 class="text-center mb-0">
+						 @Params.Name <span class="text-purple" style="color:rgb(21 255 84)">
+							AI
+							<svg width="100.1" height="50.9" viewBox="0 0 231.1 95.9" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#00000000" stroke-width="0.25mm" fill="#ffffff" style="stroke:#00000000;stroke-width:0.25mm;fill:rgb(21 255 84)"><path d="M 151.5 40.2 L 151.5 78.9 L 138.5 78.9 L 138.5 43.1 A 17.245 17.245 0 0 0 138.203 39.742 Q 137.152 34.473 132.381 33.956 A 10.044 10.044 0 0 0 131.3 33.9 L 118.9 38.8 L 118.9 78.9 L 105.9 78.9 L 105.9 3.7 L 118.9 3.7 L 118.9 28.6 L 135.4 21.2 Q 144.2 21.2 147.85 26.2 Q 150.714 30.123 151.331 36.51 A 38.433 38.433 0 0 1 151.5 40.2 Z M 43.9 66.5 L 43.9 78.9 L 22.7 78.9 A 49.11 49.11 0 0 1 16.635 78.552 Q 10.061 77.731 6.259 74.972 A 13.245 13.245 0 0 1 5.35 74.25 A 14.039 14.039 0 0 1 1.428 68.388 Q 0 64.524 0 59.1 L 0 7.7 L 13.9 7.7 L 13.9 59.1 Q 13.9 62.866 15.428 64.542 A 3.924 3.924 0 0 0 15.8 64.9 Q 17.7 66.5 22.7 66.5 L 43.9 66.5 Z M 93.3 21.4 L 93.3 78.9 L 84.6 78.9 L 80.6 72 L 66.7 79.5 A 24.648 24.648 0 0 1 60.925 78.872 A 13.893 13.893 0 0 1 51.1 71.1 A 31.127 31.127 0 0 1 48.356 62.287 A 34.365 34.365 0 0 1 48.35 62.25 A 62.599 62.599 0 0 1 47.612 53.631 A 69.711 69.711 0 0 1 47.6 52.35 A 432.333 432.333 0 0 1 47.606 49.944 Q 47.625 46.588 47.7 44.75 A 53.916 53.916 0 0 1 47.817 42.8 Q 47.909 41.618 48.055 40.289 A 99.429 99.429 0 0 1 48.2 39.05 A 37.803 37.803 0 0 1 48.549 36.76 Q 48.757 35.645 49.018 34.689 A 18.394 18.394 0 0 1 49.35 33.6 A 21.752 21.752 0 0 1 50.4 31.078 A 27.825 27.825 0 0 1 51.5 29.05 A 12.911 12.911 0 0 1 53.347 26.622 A 10.934 10.934 0 0 1 54.9 25.3 Q 59.4 22.2 66.6 22.2 L 80.3 22.2 L 93.3 21.4 Z M 231.1 21.4 L 231.1 78.9 L 222.4 78.9 L 218.4 72 L 204.5 79.5 A 24.648 24.648 0 0 1 198.725 78.872 A 13.893 13.893 0 0 1 188.9 71.1 A 31.127 31.127 0 0 1 186.156 62.287 A 34.365 34.365 0 0 1 186.15 62.25 A 62.599 62.599 0 0 1 185.412 53.631 A 69.711 69.711 0 0 1 185.4 52.35 A 432.333 432.333 0 0 1 185.406 49.944 Q 185.425 46.588 185.5 44.75 A 53.916 53.916 0 0 1 185.617 42.8 Q 185.709 41.618 185.855 40.289 A 99.429 99.429 0 0 1 186 39.05 A 37.803 37.803 0 0 1 186.349 36.76 Q 186.557 35.645 186.818 34.689 A 18.394 18.394 0 0 1 187.15 33.6 A 21.752 21.752 0 0 1 188.2 31.078 A 27.825 27.825 0 0 1 189.3 29.05 A 12.911 12.911 0 0 1 191.147 26.622 A 10.934 10.934 0 0 1 192.7 25.3 Q 197.2 22.2 204.4 22.2 L 218.1 22.2 L 231.1 21.4 Z M 164.3 23.9 L 177.3 23.9 L 177.3 81 Q 177.3 87.1 173.45 91.5 A 12.316 12.316 0 0 1 167.212 95.281 Q 164.913 95.9 162.1 95.9 L 154.7 95.9 L 154.7 84.9 L 159.7 84.9 Q 164.3 84.9 164.3 80.2 L 164.3 23.9 Z M 70.4 65.8 L 80.3 60.7 L 80.3 33.9 L 70.4 33.9 A 11.134 11.134 0 0 0 67.439 34.268 A 7.217 7.217 0 0 0 62.75 38.1 A 15.684 15.684 0 0 0 61.571 41.303 Q 60.737 44.514 60.619 49.109 A 60.404 60.404 0 0 0 60.6 50.65 Q 60.6 57.17 61.85 60.672 A 9.585 9.585 0 0 0 62.65 62.4 A 6.45 6.45 0 0 0 66.111 65.149 Q 67.289 65.576 68.768 65.723 A 16.537 16.537 0 0 0 70.4 65.8 Z M 208.2 65.8 L 218.1 60.7 L 218.1 33.9 L 208.2 33.9 A 11.134 11.134 0 0 0 205.239 34.268 A 7.217 7.217 0 0 0 200.55 38.1 A 15.684 15.684 0 0 0 199.371 41.303 Q 198.537 44.514 198.419 49.109 A 60.404 60.404 0 0 0 198.4 50.65 Q 198.4 57.17 199.65 60.672 A 9.585 9.585 0 0 0 200.45 62.4 A 6.45 6.45 0 0 0 203.911 65.149 Q 205.089 65.576 206.568 65.723 A 16.537 16.537 0 0 0 208.2 65.8 Z M 172.799 0.07 A 23.992 23.992 0 0 0 170.9 0 A 23.76 23.76 0 0 0 168.903 0.077 Q 167.036 0.236 165.895 0.718 A 3.556 3.556 0 0 0 164.75 1.45 Q 163.617 2.583 163.37 5.638 A 23.128 23.128 0 0 0 163.3 7.5 A 23.41 23.41 0 0 0 163.365 9.304 Q 163.515 11.246 164.017 12.436 A 3.747 3.747 0 0 0 164.75 13.6 A 3.521 3.521 0 0 0 165.854 14.341 Q 167.542 15.1 170.85 15.1 A 23.803 23.803 0 0 0 172.671 15.035 Q 174.626 14.885 175.807 14.383 A 3.567 3.567 0 0 0 176.95 13.65 Q 178.4 12.2 178.4 7.55 A 24.085 24.085 0 0 0 178.325 5.565 Q 178.171 3.709 177.7 2.574 A 3.565 3.565 0 0 0 177 1.45 A 2.426 2.426 0 0 0 176.974 1.423 Q 175.869 0.314 172.799 0.07 Z" vector-effect="non-scaling-stroke" /></g></svg>
+						</span> Using Your Expertise
+					</h1>
+        }
+		    <ul class="list-inline d-flex justify-content-center  gap-2 gap-md-4 mb-0 mt-4 mt-xl5">
+
+				@foreach (var cardDetail in cardDetailsList)
+				{
+					<TemlatIconCard Params="@cardDetail" />
+				}
+				</ul>
+        @* عرض باقي التفاصيل هنا *@
+       
+        @* رابط للخدمة *@
+				<div class="d-flex justify-content-center flex-wrap gap-3 mt-4 mt-xl-5">
+					<a href="#" class="btn btn-primary icon-link icon-link-hover mb-0">
+						@Params.ButtonLink
+						 <i class="bi bi-arrow-right"></i></a>
+					<a href="#" class="btn btn-white-shadow mb-0">
+						@Params.Description
+						</a>
+				</div>
+
+
+		</div>
+	</div>	
+	</div>
+	</div>
+}
+else
+{
+    <p>No data available</p>
+}
+
+@code {
+    [Parameter] public CardTextAndIcon? Params { get; set; }
+
+    // إذا كنت بحاجة إلى منطق إضافي، يمكنك إضافته هنا
+	protected override void OnInitialized()
+	{
+
+		if (Params != null && Params.IsUseStyleIneerItems)
+		{
+			Params.ClassItems += " " + CardTextAndIcon.INEERCLASS;
+		}
+
+
+	}
+	<!-- TemlatIconCard  يتم جلب العنصر من صفحة لعرض نصوص التالية   -->
+	private List<CaerdSevicisIcon> cardDetailsList = new List<CaerdSevicisIcon>
+	{
+		new CaerdSevicisIcon
+		{
+			Name = "Cloud hosting",
+			IsName = true,
+			
+		},
+		 new CaerdSevicisIcon
+		{
+			Name = "Team collaboration",
+			IsName = true,
+
+		},
+
+		new CaerdSevicisIcon
+		{
+			Name = "Fully adaptable",
+			IsName = true,
+
+		},
+	   new CaerdSevicisIcon
+		{
+			Name = "Unify your data",
+			IsName = true,
+
+		},
+	};
+}

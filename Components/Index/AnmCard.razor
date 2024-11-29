@@ -1,0 +1,289 @@
+﻿<style>
+    /* Main container for alignment and fade-in effect */
+    .col-lg-7.ms-auto.hover-opacity-fade {
+        transition: opacity 0.3s ease-in-out;
+        opacity: 1;
+    }
+
+        .col-lg-7.ms-auto.hover-opacity-fade:hover {
+            opacity: 0.8;
+        }
+
+    /* Styling for each service item */
+    .hover-item {
+        display: flex;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        transition: background-color 0.3s ease;
+    }
+
+        .hover-item:hover {
+            background-color: #333; /* Background color change on hover */
+        }
+
+        /* Icon image styling */
+        .hover-item img {
+            width: 40px; /* Adjust icon size */
+            height: 40px;
+            transition: transform 0.3s ease;
+        }
+
+        .hover-item:hover img {
+            transform: scale(1.1); /* Slight zoom effect on hover */
+        }
+
+        /* Service title styling */
+        .hover-item h6 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #333;
+            margin: 0;
+            transition: color 0.3s ease;
+        }
+
+        .hover-item:hover h6 {
+            color: #fff; /* Text color change to white on hover */
+        }
+
+    /* Icon link styling */
+    .icon-link {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+
+    /* Arrow styling */
+    .icon-link-hover::before {
+        content: "→";
+        display: inline-block;
+        opacity: 0;
+        transform: translateX(-10px) scale(1); /* Initial position and size */
+        font-size: 1rem; /* Initial size */
+        transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+        color: #333; /* Initial color */
+    }
+
+    .hover-item:hover .icon-link-hover::before {
+        opacity: 1;
+        transform: translateX(0) scale(1.3); /* Increase size on hover */
+        color: #fff; /* Arrow color change to white on hover */
+    }
+
+    /* زر رئيسي بتأثير التمرير */
+    .btn.icon-link {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.75rem 1.5rem;
+        border: 2px solid #6c757d; /* لون الحدود الثانوي */
+        color: #6c757d; /* لون النص */
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn.icon-link:hover {
+            background-color: #6c757d; /* تغيير الخلفية عند التمرير */
+            color: #fff; /* لون النص يصبح أبيض عند التمرير */
+            border-color: #6c757d;
+        }
+
+        /* إعداد السهم وإضافة تأثير التمرير */
+        .btn.icon-link i {
+            font-size: 1.2rem; /* حجم السهم */
+            margin-left: 0.5rem; /* مسافة بين النص والسهم */
+            transition: transform 0.3s ease, color 0.3s ease; /* تأثير التحريك */
+            color: inherit; /* يتبع لون النص */
+        }
+
+        .btn.icon-link:hover i {
+            transform: translateX(5px); /* تحريك السهم عند التمرير */
+            color: #fff; /* تغيير لون السهم إلى أبيض عند التمرير */
+        }
+
+</style>
+<div class="position-relative" style="position:relative;background:rgb(31, 36, 52);color: white">
+        <div class="position-absolute top-0 start-0 mt-n3">
+            <svg class="fill-body" fill="#fff" width="1920" height="146" viewBox="0 0 1920 146" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1457.5 123.815C1692.5 141 1811.59 85.4373 1920 50.5V3L0 0.5V23.4269V141C56.3835 103.114 283.285 126.587 439.5 141C607.5 156.5 776.5 126.673 873.5 108.5C1087 68.5 1255.23 109.024 1457.5 123.815Z"></path>
+            </svg>
+        </div>
+    <div class="imrebot position-relative ">
+            <img src="ai-hand.png" style="width:100%" />
+            </div>
+
+        <div class="container position-relative pt-5 pt-sm-8" data-bs-theme="dark">
+            <div class="row">
+                <!-- Title and content -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h2 class="mb-3 mb-lg-4">AI solutions for every business</h2>
+                    <p class="mb-3 mb-lg-4">Discover our AI services designed to optimize operations, enhance decisions, and drive growth.</p>
+                    <a href="services-list.html" class="btn btn-primary">Explore all services</a>
+                </div>
+
+                <!-- Services START -->
+            <div class="col-lg-7 ms-auto hover-opacity-fade">
+                <!-- Service item -->
+                <div class="hover-item d-flex align-items-center border-bottom position-relative py-4">
+                    <!-- Icon -->
+                    <img src="01.svg" class="me-3" alt="service icon">
+                    <h6 class="mb-0">AI consulting and strategy</h6>
+                    <a href="service-single.html" class="icon-link icon-link-hover text-body stretched-link ms-auto"><i class="bi bi-arrow-right fs-5"></i> </a>
+                </div>
+
+                <!-- Service item -->
+                <div class="hover-item d-flex align-items-center border-bottom position-relative py-4">
+                    <!-- Icon -->
+                    <img src="02.svg" class="me-3" alt="service icon">
+                    <h6 class="mb-0">Natural language processing (NLP)</h6>
+                    <a href="service-single.html" class="icon-link icon-link-hover text-body stretched-link ms-auto"><i class="bi bi-arrow-right fs-5"></i> </a>
+                </div>
+
+                <!-- Service item -->
+                <div class="hover-item d-flex align-items-center border-bottom position-relative py-4">
+                    <!-- Icon -->
+                    <img src="03.svg" class="me-3" alt="service icon">
+                    <h6 class="mb-0">Custom AI development</h6>
+                    <a href="service-single.html" class="icon-link icon-link-hover text-body stretched-link ms-auto"><i class="bi bi-arrow-right fs-5"></i> </a>
+                </div>
+
+                <!-- Service item -->
+                <div class="hover-item d-flex align-items-center border-bottom position-relative py-4">
+                    <!-- Icon -->
+                    <img src="04.svg" class="me-3" alt="service icon">
+                    <h6 class="mb-0">AI-Powered automation</h6>
+                    <a href="service-single.html" class="icon-link icon-link-hover text-body stretched-link ms-auto"><i class="bi bi-arrow-right fs-5"></i> </a>
+                </div>
+
+                <!-- Service item -->
+                <div class="hover-item d-flex align-items-center border-bottom position-relative py-4">
+                    <!-- Icon -->
+                    <img src="05.svg" class="me-3" alt="service icon">
+                    <h6 class="mb-0">Computer vision solutions</h6>
+                    <a href="service-single.html" class="icon-link icon-link-hover text-body stretched-link ms-auto"><i class="bi bi-arrow-right fs-5"></i> </a>
+                </div>
+            </div>
+            </div> <!-- Row END -->
+            <!-- Technology logos -->
+        <div class="inner-container text-center mt-8">
+            <h4>AI technologies and tools we utilize</h4>
+            <!-- Logo list -->
+            <ul class="list-inline d-flex justify-content-center flex-wrap gap-4 my-5 my-lg-6">
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/08.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/04.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/12.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/09.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/05.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/03.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/02.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+
+                <!-- Logo item -->
+                <li class="list-inline-item me-0">
+                    <a href="#" class="icon-xl btn-transition bg-white border border-white border-opacity-10 d-flex justify-content-center align-items-center rounded-2" style="--bs-bg-opacity:0.05">
+                        <img src="assets/10.svg" class="h-40px" alt="icon">
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Button -->
+            <a class="btn btn-outline-secondary icon-link " href="#">Uncover our AI capabilities<i class="bi bi-arrow-right"></i> </a>
+        </div>
+        </div>
+    </div>
+
+   
+  @*   <div class=" position-relative  ">
+        <img src="css/Visual-Studio-for-Mac-Shape-1.svg" class="position-absolute" style="width:100%" />
+        <div class=" row" style="padding:7%;color:#fff"> 
+            <!-- Skill sets item -->
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between">
+                    <div class="text-center">
+                        <!-- Number -->
+                        <div class="d-flex">
+                            <h4 class="purecounter display-2 mb-0" >105</h4>
+                            <span class="display-2 text-primary mb-0">+</span>
+                        </div>
+                        <!-- Content -->
+                        <p class="px-3 py-2 bg-body mt-n3 mt-md-n4 position-relative">Total projects completed</p>
+                    </div>
+
+                    <div class="vr bg-primary-grad opacity-1 my-3"></div> <!-- Divider -->
+                </div>
+            </div>
+
+            <!-- Skill sets item -->
+            <div class="col-md-4 text-center">
+                <!-- Number -->
+                <div class="d-flex justify-content-center">
+                    <h4 style="color:#fff" class="purecounter display-2 mb-0">35</h4>
+                    <span class="display-2 text-purple mb-0">+</span>
+                </div>
+                <!-- Content -->
+                <p class="px-3 py-2 bg-body mt-n3 mt-md-n4 position-relative">Awards and accolades</p>
+            </div>
+
+            <!-- Skill sets item -->
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between">
+                    <div class="vr bg-primary-grad opacity-1 my-3"></div> <!-- Divider -->
+
+                    <div class="text-center">
+                        <!-- Number -->
+                        <div class="d-flex">
+                            <span class="display-2 heading-color mb-0">&gt;</span>
+                            <h4 class="purecounter display-2 mb-0" >10</h4>
+                            <span class="display-2 text-pink mb-0">K</span>
+                        </div>
+                        <!-- Content -->
+                        <p class="px-3 py-2 bg-body mt-n3 mt-md-n4 position-relative">Satisfied users</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> *@

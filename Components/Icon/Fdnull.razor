@@ -1,0 +1,125 @@
+﻿@* 
+
+
+        <div class="row mb-6 mb-md-8">
+            <!-- Integrations logos -->
+            <div class="col-12 mb-6">
+                <div class="d-flex justify-content-center align-items-center gap-2 gap-sm-4">
+                    @foreach (var logo in Logos)
+                    {
+                <div class="@logo.SizeClasIcon">
+                            <img src="@logo.ImageUrl" class="@logo.SizeClass" alt="Logo">
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Title and contents -->
+            <div class="col-xxl-8 text-center mx-auto">
+                <h1 class="fw-bold mb-4 lh-base h">Easily bring <span class="text-primary">AI</span> in your workflow to create content</h1>
+                <p class="mb-4">Our robust integration capabilities ensure your data flows smoothly across systems, empowering you to streamline operations and boost productivity</p>
+                <a href="integrations.html" class="btn btn-primary-grad icon-link icon-link-hover mb-0">Integrate with your apps <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Dynamic Content for Card Details -->
+        
+    
+
+@code {
+    // List of logos and card details data
+    private List<Logo> Logos = new List<Logo>
+    {
+        new Logo { ImageUrl = "assets/images/04.svg", SizeClass = "w-20px " },
+        new Logo { ImageUrl = "assets/images/05.svg", SizeClass = "w-30px" ,SizeClasIcon ="icon-lg text-center shadow-primary bg-body rounded-circle flex-shrink-0 d-none d-sm-block" },
+        new Logo { ImageUrl = "assets/images/02.svg", SizeClass = "h-40px" },
+        new Logo { ImageUrl = "assets/images/01.svg", SizeClass = "h-40px" },
+        new Logo { ImageUrl = "assets/images/logo-icon.svg", SizeClass = "h-60px" },
+        new Logo { ImageUrl = "assets/images/07.svg", SizeClass = "w-30px" },
+        new Logo { ImageUrl = "assets/images/08.svg", SizeClass = "w-30px" },
+        new Logo { ImageUrl = "assets/images/09.svg", SizeClass = "w-20px " }
+    };
+
+    private List<CardDetail> cardDetailsList = new List<CardDetail>
+    {
+        new CardDetail { Title = "AI Content Creation", Description = "Create content effortlessly with AI-powered tools.", Link = "content-creation.html" },
+        new CardDetail { Title = "Integration Services", Description = "Seamlessly integrate AI into your existing tools.", Link = "integration-services.html" }
+    };
+
+    public class Logo
+    {
+        public string ImageUrl { get; set; }
+        public string SizeClass { get; set; }
+        public string SizeClasIcon { get; set; }
+
+    }
+
+    public class CardDetail
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string Link { get; set; }
+    }
+}
+ *@
+<section class="pt-0">
+    <div class="container">
+        @if (Params != null)
+        {
+            <div class="bg-dark position-relative rounded-4 overflow-hidden p-4 p-sm-6" data-bs-theme="dark">
+                <!-- Grad decoration -->
+            <div class="position-absolute top-0 end-0 mt-n6">
+                <img src="assets/images/elements/grad-shape/blur-decoration.svg" class="blur-8 opacity-3" alt="Grad shape">
+            </div>
+
+            <div class="row g-4 align-items-center position-relative">
+                <!-- Title and list -->
+                <div class="col-lg-6">
+                    <h2 class="mb-3">
+                        @Params.Name
+                        Experience the Power of <span class="text-purple">AI Chatbot</span></h2>
+                    <p class="mb-4">
+                        @Params.Description
+                        </p>
+                    <a href="pricing-v1.html" class="btn btn-outline-secondary mb-0">
+                        @Params.ButtonLink
+                        </a>
+                </div>
+
+                <!-- Button -->
+                <div class="col-lg-6 position-absolute end-0 top-0 mt-n3 me-n5 d-none d-lg-block">
+                    <img src="assets/images/chatbot-cta.png" style="width: 46%; margin-left: 50%;" alt="">
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</section>
+
+@code{
+    [Parameter] public CaerdSevicisIcon? Params { set; get; }
+
+
+    // CaerdSevicisIcon? carddecoration;
+    protected override void OnInitialized()
+    {
+
+        Params = new CaerdSevicisIcon()
+            {
+                Name = "Experience the Power of",
+                Description = "Our AI chatbot offers enhancing customer satisfaction and boosting your business efficiency.",
+                ButtonLink = "Start free trial",
+            }; 
+
+            }
+    // protected override void OnInitialized()
+    // {
+
+    //     if (Params != null && Params.IsUseStyleIneerItems)
+    //     {
+    //         Params.ClassItems += " " + CaerdSevicisIcon.INEERCLASS;
+    //     }
+
+
+    // }
+}

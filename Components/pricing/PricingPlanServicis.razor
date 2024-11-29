@@ -1,0 +1,71 @@
+﻿<!-- TitmsPricingPlanServices هنا  نستدعي    صفحة  -->
+<!--  هنا  وستدعاء نصوص      -->
+@using MudBlazor.Charts
+<section class="pt-0">
+	<div class="container">
+		<!-- Title -->
+        @if (cardIconName != null)
+        {
+            <div class="inner-container-small text-center mb-4 mb-lg-5">
+                <h2 class="mb-0">
+                    @cardIconName.Name
+                    </h2>
+		</div>
+        }
+    @if (PricingPlan != null)
+    {
+	    <TitmsPricingPlanServices Params="@PricingPlan" />
+    }
+    </div>
+</section>
+@code {
+    PricingPlanModel? PricingPlan;
+    CardIconItems? cardIconName;
+    // private PricingPlanModel PricingPlan = new();
+
+    protected override void OnInitialized()
+    {
+        cardIconName = new CardIconItems()
+            {
+                Name = "Choose the plan that fits your needs",
+            };
+        PricingPlan = new PricingPlanModel
+        {
+            IsUseStyleIneerItems = true,
+            CardIconServicsModel = new List<PricingCardModel>
+            {
+                new PricingCardModel
+                {
+                    Title = "Free",
+                    PriceDisplay = "<span class='h1'>$0</span> /month",
+                    ButtonText = "Sign up now",
+                    ButtonLink = "sign-up.html",
+                    Details = "Limited to 100 conversations per month",
+                    CardClass = "bg-secondary bg-opacity-75",
+                    ButtonClass = "btn-outline-primary"
+                },
+                new PricingCardModel
+                {
+                    Title = "Professional",
+                    PriceDisplay = "<span class='h1'>$59</span> /month",
+                    ButtonText = "Upgrade Now",
+                    ButtonLink = "pricing-v2.html",
+                    Details = "Detailed analytics and reporting",
+                    CardClass = "bg-primary text-white",
+                    ButtonClass = "btn-dark",
+                    CardTheme = "dark"
+                },
+                new PricingCardModel
+                {
+                    Title = "Enterprise",
+                    PriceDisplay = "<span class='h2'>Custom</span>",
+                    ButtonText = "Request pricing",
+                    ButtonLink = "pricing-v2.html",
+                    Details = "Custom integration and development",
+                    CardClass = "bg-secondary bg-opacity-75",
+                    ButtonClass = "btn-outline-primary"
+                }
+            }
+        };
+    }
+}

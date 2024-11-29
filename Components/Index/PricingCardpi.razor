@@ -1,0 +1,22 @@
+﻿@* PricingCard.razor *@
+@code {
+    [Parameter] public PricingPlan Plan { get; set; }
+}
+
+<div class="col">
+    <div class="card mb-4 rounded-3 shadow-sm @(Plan.IsFeatured ? "border-primary" : "")">
+        <div class="card-header py-3 @(Plan.IsFeatured ? "text-bg-primary border-primary" : "")">
+            <h4 class="my-0 fw-normal">@Plan.Title</h4>
+        </div>
+        <div class="card-body">
+            <h1 class="card-title pricing-card-title">@Plan.Price<small class="text-body-secondary fw-light">@Plan.PricePeriod</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+                <li>@Plan.Users</li>
+                <li>@Plan.Storage</li>
+                <li>@Plan.Support</li>
+                <li>@Plan.Access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-@Plan.ButtonStyle">@Plan.ButtonText</button>
+        </div>
+    </div>
+</div>
